@@ -1,3 +1,24 @@
 {
-  "name": "@atlas/server"
+  "name": "@atlas/server",
+  "description": "atlas back end",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "@types/koa": "^2.11.6",
+    "@types/koa-mount": "^4.0.0",
+    "@types/koa__cors": "^3.0.2",
+    "@types/koa__router": "^8.0.3",
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "@koa/router": "^10.0.0",
+    "koa": "^2.13.0",
+    "koa-mount": "^4.0.0"
+  },
+  "scripts": {
+    "build": "tsx -b .",
+    "build:clean": "yarn build --clean",
+    "dev": "nodemon index.ts"
+  }
 }

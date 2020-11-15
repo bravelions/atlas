@@ -2,8 +2,26 @@
   "name": "atlas",
   "version": "1.0.0",
   "private": true,
-  "devDependencies": {
-    "lerna": "^3.22.1"
+  "author": "bravelions",
+  "license": "UNLICENSED",
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn workspaces run precommit",
+      "pre-push": "yarn workspaces run prepush"
+    }
   },
-  "workspaces": ["packages/*"]
+  "devDependencies": {
+    "@types/node": "^14.14.7",
+    "husky": "^4.3.0",
+    "lerna": "^3.22.1",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.5"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "lerna exec --ignore=@atlas/shared -- yarn build",
+    "build:clean": "yarn workspaces run build:clean"
+  }
 }
