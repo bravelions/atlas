@@ -32,11 +32,6 @@
   <component name="ChangeListManager">
     <list default="true" id="36828e1b-b775-4154-ae79-73a595ac7a5d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/atlas.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +69,7 @@
       <updated>1605357193481</updated>
       <workItem from="1605357194983" duration="1537000" />
       <workItem from="1605448851341" duration="3039000" />
-      <workItem from="1605453781748" duration="6983000" />
+      <workItem from="1605453781748" duration="7034000" />
     </task>
     <servers />
   </component>
