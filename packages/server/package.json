@@ -18,7 +18,6 @@
   },
   "scripts": {
     "build": "tsx -b .",
-    "build:clean": "yarn build --clean",
-    "dev": "nodemon index.ts"
+    "build:clean": "yarn build --clean"
   }
 }

@@ -1,0 +1,11 @@
+{
+  "env": {
+    "LOG_LEVEL": "debug",
+    "TS_NODE_PROJECT": "dev.tsconfig.json",
+    "API_HOST": ""
+  },
+  "ext": "ts",
+  "restartable": "rs",
+  "verbose": false,
+  "watch": []
+}

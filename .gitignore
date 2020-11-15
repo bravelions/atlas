@@ -4,8 +4,8 @@
 /node_modules
 
 # client
-packages/client/.next
-packages/client/node_modules
+packages/app/.next
+packages/app/node_modules
 
 # server
 packages/server/node_modules
