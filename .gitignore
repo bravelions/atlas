@@ -1,2 +1,14 @@
+# root
+.github
 /node_modules
-/src/app/pages
+
+# client
+packages/client/pages
+packages/client/.next
+packages/client/node_modules
+
+# server
+packages/server/node_modules
+
+# shared
+packages/shared/node_modules

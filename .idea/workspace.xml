@@ -31,14 +31,79 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36828e1b-b775-4154-ae79-73a595ac7a5d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/CODEOWNERS" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lerna.json" beforeDir="false" afterPath="$PROJECT_DIR$/lerna.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/client/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/server/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/shared/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/shared/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/build-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/cache/next-babel-loader/0072a835a65ef684b30ba91714ba768b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/cache/next-babel-loader/00ceadead692468bdc5673f9115e7988.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/cache/next-babel-loader/031e9a53086be565cce582532b30003f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/cache/next-babel-loader/08e589e17dc582647599277550dc8395.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/cache/next-babel-loader/0e132f2932d24433c9dc1c4b058e3657.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/cache/next-babel-loader/1a653ae4886646913e7d98e179418ae1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/cache/next-babel-loader/27cdd05b98d2377e3f4a9bf5dd00b0dc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/cache/next-babel-loader/2db8bc1e693d3af98421ef0df25c9403.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/cache/next-babel-loader/3071fdf73b1790ffdcf46f5341a0e0e1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/cache/next-babel-loader/37dad926630f968cd4c0ad092972cb6f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/cache/next-babel-loader/381c7292dde39ee1a23f3ee036ea3cd5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/cache/next-babel-loader/3e734bd37f817530a542a58e1bd02407.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/cache/next-babel-loader/3ecba6110331d8e1d4fa7220c65061c2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/cache/next-babel-loader/46f8f974b0b004ce80074b8c8622ad74.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/cache/next-babel-loader/4db9352aa76bfeaf2fedc059801b7478.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/cache/next-babel-loader/554566471da772c1dc53fbfc43767729.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/cache/next-babel-loader/5b57689cd4b1d1241943e83f840d1760.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/cache/next-babel-loader/5e080fb36c0f4815ed271f021e6e3333.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/cache/next-babel-loader/60215792fd2d3958383f3a461493cbca.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/cache/next-babel-loader/62ed8d90b35ed37178cb1488ef94852d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/cache/next-babel-loader/6ccb628921b69be9c6976eb948ac8bb3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/cache/next-babel-loader/6f48b81b09da73a7d40b627f5a81b8b8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/cache/next-babel-loader/734a9d162b76a5cf8f9b21b9570212de.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/cache/next-babel-loader/7692e11e99faede4df162196e327c9e4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/cache/next-babel-loader/7c34e95fda022690ab30bfd026e27f89.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/cache/next-babel-loader/7ce200ba3ffaba2fbded5d7f4b769f09.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/cache/next-babel-loader/8190d45305b04795d004af2b7dc551d1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/cache/next-babel-loader/87eccd7db411d6aab87c7b7c20cc9a95.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/cache/next-babel-loader/8cc2e0d2d0af438f411c6ad7252bd612.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/cache/next-babel-loader/8f6b4d40753d412356dadfccfff3f08d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/cache/next-babel-loader/98b1fc6b6508e78b1a49357aa644eff4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/cache/next-babel-loader/99d77f1cc16614ee6a861e60e545dd8c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/cache/next-babel-loader/9f85582d212d100e38dcb0d582975b62.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/cache/next-babel-loader/a9b2b415736f73843bdfa5306871bd01.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/cache/next-babel-loader/b8e5c0e1e77599e7d62ca1bd87207d15.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/cache/next-babel-loader/b8ecf51ecb6e198bdcb53c905399898a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/cache/next-babel-loader/bdfbb332265350348759436123160e8b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/cache/next-babel-loader/c4426a31d777a688d24c76148dfd94e5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/cache/next-babel-loader/c8df6b6c68edbc908c254b9d579955ea.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/cache/next-babel-loader/d023df04ccf350114107f400636456de.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/cache/next-babel-loader/d5f02230bccf659e9de3ebb78a0a6ddf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/cache/next-babel-loader/df4f9860a616713c3f10180caddf7877.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/cache/next-babel-loader/eb951c855a4ada8c24506279b5d2f58f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/cache/next-babel-loader/edadc5d004b0cf9cc5962508243a94bf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/cache/next-babel-loader/f0056b3bc6d446d291c32e782c902be2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/cache/next-babel-loader/f02eaf016c34111b9de1130f5a04ebea.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/cache/next-babel-loader/f17fd2f9f0a9f00e7af7539618ebabf7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/cache/next-babel-loader/f4d49675acfe91e587df0a19fea1acd0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/cache/next-babel-loader/f6860ff707609f9b1903eda9f5a3d66b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/react-loadable-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/server/init-server.js.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/server/on-error-server.js.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/server/pages-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/server/pages/_app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/server/pages/_document.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/server/pages/_error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/server/ssr-module-cache.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/static/chunks/0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/static/chunks/amp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/static/chunks/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/static/chunks/pages/_app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/static/chunks/pages/_error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/static/chunks/polyfills.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/static/chunks/react-refresh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/static/chunks/webpack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/static/development/_buildManifest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/.next/static/development/_ssgManifest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/client/node_modules/.bin/next" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/server/node_modules/.bin/nodemon" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +136,7 @@
       <updated>1605357193481</updated>
       <workItem from="1605357194983" duration="1537000" />
       <workItem from="1605448851341" duration="3039000" />
-      <workItem from="1605453781748" duration="2496000" />
+      <workItem from="1605453781748" duration="2955000" />
     </task>
     <servers />
   </component>
