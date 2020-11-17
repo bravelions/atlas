@@ -3,7 +3,7 @@ import compress from 'koa-compress';
 import range from 'koa-range';
 import post from './router/v1/test/post';
 
-export default class AtlasServer extends Application {
+export default class AtlasApp extends Application {
 
   constructor() {
     super();

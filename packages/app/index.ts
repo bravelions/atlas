@@ -14,6 +14,6 @@ app.prepare().then(() => {
   server.all('*', async (req, res) => handle(req, res));
 
   server.listen(port, () => {
-    console.log(`> Atlas next.js app ready on http://localhost:${ port }`);
+    console.log(`> Atlas app ready on http://localhost:${ port }`);
   });
 });
