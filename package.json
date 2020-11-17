@@ -23,6 +23,6 @@
   "scripts": {
     "build": "lerna exec --ignore=@atlas/shared -- yarn build",
     "build:clean": "yarn workspaces run build:clean",
-    "start": "lerna exec --ignore=@atlas/server --ignore=@atlas/shared --parallel -- yarn start"
+    "start": "lerna exec --ignore=@atlas/shared --parallel -- yarn start"
   }
 }

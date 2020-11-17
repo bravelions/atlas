@@ -1,11 +1,11 @@
 {
-  "name": "app",
+  "name": "@atlas/app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "NODE_ENV=${NODE_ENV:-development} nodemon server.ts"
+    "start": "NODE_ENV=${NODE_ENV:-development} nodemon index.ts"
   },
   "dependencies": {
     "express": "^4.17.1",
