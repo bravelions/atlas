@@ -8,7 +8,7 @@ How to run the project:
 
 2. Make sure you have [yarn](https://www.npmjs.com/package/yarn) installed globally.
 
-3. This project has been setup as a monorepo. You will need to run `yarn` inside each workspace separately as well as from the root when you first clone. When done; make sure you are at the root `/` level of the application, and run `yarn start`. This will run both the `app` and the `server` in parallel.
+3. This project has been setup as a monorepo. You will need to run `yarn` inside each workspace separately as well as from the root when you first clone. When done, make sure you are at the root `/` level of the application, and run `yarn start`. This will run both the `app` and the `server` in parallel.
 
 How to install packages:
 
