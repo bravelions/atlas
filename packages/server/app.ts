@@ -9,11 +9,13 @@ export default class AtlasApp extends Application {
     super();
 
     this.use(range);
+
     this.use(compress({
       filter: (contentType: string) => /text|json|javascript|xml/i.test(contentType),
       threshold: 2048,
       br: false,
     }));
+
     this.use(post.middleware());
   }
 }
