@@ -3,6 +3,11 @@
   "description": "atlas back end",
   "version": "0.0.1",
   "private": true,
+  "lint-staged": {
+    "src/**/*.ts*": [
+      "yarn lint"
+    ]
+  },
   "devDependencies": {
     "@types/http-server": "^0.10.1",
     "@types/koa": "^2.11.6",
@@ -26,6 +31,9 @@
   "scripts": {
     "build": "tsx -b .",
     "build:clean": "yarn build --clean",
+    "lint": "eslint src --ext .ts",
+    "precommit": "lint-staged",
+    "prepush": "yarn build",
     "start": "nodemon index.ts"
   }
 }

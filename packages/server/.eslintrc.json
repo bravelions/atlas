@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "./../../.eslintrc.json"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2019,
+    "project": "./tsconfig.json"
+  },
+  "plugins": [
+    "@typescript-eslint"
+  ]
+}

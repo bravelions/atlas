@@ -2,9 +2,18 @@
   "name": "@atlas/app",
   "version": "0.1.0",
   "private": true,
+  "lint-staged": {
+    "src/**/*.ts*": [
+      "yarn lint"
+    ]
+  },
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
+    "dev": "next dev",
+    "lint": "yarn lint:ts && yarn lint:css",
+    "lint:ts": "eslint --ext ts,tsx src",
+    "lint:css": "stylelint './src/**/*.tsx'",
+    "precommit": "lint-staged",
     "start": "NODE_ENV=${NODE_ENV:-development} nodemon index.ts"
   },
   "dependencies": {
