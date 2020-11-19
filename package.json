@@ -6,8 +6,8 @@
   "license": "UNLICENSED",
   "husky": {
     "hooks": {
-      "pre-commit": "yarn workspaces run precommit",
-      "pre-push": "yarn workspaces run prepush"
+      "pre-commit": "lerna exec --ignore=@atlas/shared -- yarn precommit",
+      "pre-push": "lerna exec --ignore=@atlas/shared -- yarn prepush"
     }
   },
   "devDependencies": {

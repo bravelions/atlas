@@ -5,7 +5,7 @@
   "private": true,
   "license": "UNLICENSED",
   "lint-staged": {
-    "/**/*.ts*": [
+    "**/*.ts*": [
       "yarn lint"
     ]
   },
