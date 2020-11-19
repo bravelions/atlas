@@ -1,4 +1,3 @@
-import http from 'http-server';
 import AtlasApp from './app';
 
 const start = async () => {

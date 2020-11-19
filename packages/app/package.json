@@ -2,8 +2,9 @@
   "name": "@atlas/app",
   "version": "0.1.0",
   "private": true,
+  "license": "UNLICENSED",
   "lint-staged": {
-    "src/**/*.ts*": [
+    "/**/*.ts*": [
       "yarn lint"
     ]
   },
@@ -11,9 +12,10 @@
     "build": "next build",
     "dev": "next dev",
     "lint": "yarn lint:ts && yarn lint:css",
-    "lint:ts": "eslint --ext ts,tsx src",
-    "lint:css": "stylelint './src/**/*.tsx'",
+    "lint:ts": "eslint --ext ts,tsx ./",
+    "lint:css": "stylelint './**/*.tsx'",
     "precommit": "lint-staged",
+    "prepush": "next build",
     "start": "NODE_ENV=${NODE_ENV:-development} nodemon index.ts"
   },
   "dependencies": {
@@ -27,6 +29,17 @@
     "@types/express": "^4.17.9",
     "@types/http-proxy-middleware": "^0.19.3",
     "@types/react": "^16.9.56",
-    "@types/react-dom": "^16.9.9"
+    "@types/react-dom": "^16.9.9",
+    "babel-eslint": "^10.1.0",
+    "eslint-config-react-app": "^6.0.0",
+    "eslint-plugin-flowtype": "^5.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "stylelint": "^13.8.0",
+    "stylelint-config-recommended": "^3.0.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-processor-styled-components": "^1.10.0"
   }
 }

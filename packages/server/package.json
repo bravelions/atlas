@@ -3,8 +3,9 @@
   "description": "atlas back end",
   "version": "0.0.1",
   "private": true,
+  "license": "UNLICENSED",
   "lint-staged": {
-    "src/**/*.ts*": [
+    "/**/*.ts*": [
       "yarn lint"
     ]
   },
@@ -21,7 +22,6 @@
   "dependencies": {
     "@koa/cors": "^3.1.0",
     "@koa/router": "^10.0.0",
-    "http-server": "^0.12.3",
     "koa": "^2.13.0",
     "koa-compress": "^5.0.1",
     "koa-joi-router": "^7.0.0",
@@ -29,9 +29,9 @@
     "koa-range": "^0.3.0"
   },
   "scripts": {
-    "build": "tsx -b .",
+    "build": "tsc -b .",
     "build:clean": "yarn build --clean",
-    "lint": "eslint src --ext .ts",
+    "lint": "eslint ./ --ext .ts",
     "precommit": "lint-staged",
     "prepush": "yarn build",
     "start": "nodemon index.ts"
