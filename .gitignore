@@ -1,6 +1,7 @@
 # root
 .github
 .idea
+/dist
 /node_modules
 
 # client
