@@ -1,0 +1,12 @@
+{
+  "env": {
+    "API_HOST": "http://localhost:3001",
+    "LOG_LEVEL": "debug",
+    "PORT": "3000",
+    "TS_NODE_PROJECT": "dev.tsconfig.json"
+  },
+  "ext": "ts",
+  "restartable": "rs",
+  "verbose": false,
+  "watch": []
+}

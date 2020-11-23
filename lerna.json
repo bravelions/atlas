@@ -1,0 +1,20 @@
+{
+  "version": "independent",
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "command": {
+    "bootstrap": {
+      "npmClientArgs": [
+        "--no-package-lock"
+      ]
+    }
+  },
+  "ignoreChanges": [
+    "**/node_modules/**",
+    "**/*.md",
+    "**/*.spec.*"
+  ],
+  "packages": [
+    "packages/*"
+  ]
+}

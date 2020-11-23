@@ -1,0 +1,10 @@
+{
+  "env": {
+    "LOG_LEVEL": "debug",
+    "PORT": "3001"
+  },
+  "ext": "ts",
+  "restartable": "rs",
+  "verbose": false,
+  "watch": []
+}

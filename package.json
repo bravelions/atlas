@@ -1,0 +1,33 @@
+{
+  "name": "atlas",
+  "version": "1.0.0",
+  "private": true,
+  "author": "bravelions",
+  "license": "UNLICENSED",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lerna exec --ignore=@atlas/shared -- yarn precommit",
+      "pre-push": "lerna exec --ignore=@atlas/shared -- yarn prepush"
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.7",
+    "@typescript-eslint/eslint-plugin": "^4.8.1",
+    "@typescript-eslint/parser": "^4.8.1",
+    "eslint": "^7.13.0",
+    "husky": "^4.3.0",
+    "lerna": "^3.22.1",
+    "lint-staged": "^10.5.1",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.5"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "lerna exec --ignore=@atlas/shared -- yarn build",
+    "build:clean": "lerna exec --ignore=@atlas/shared -- yarn build:clean",
+    "lint": "lerna exec --ignore=@atlas/shared -- yarn lint",
+    "start": "lerna exec --ignore=@atlas/shared --parallel -- yarn start"
+  }
+}
