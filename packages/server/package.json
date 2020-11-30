@@ -1,6 +1,6 @@
 {
   "name": "@atlas/server",
-  "description": "atlas back end",
+  "description": "atlas koa.js api server",
   "version": "0.0.1",
   "private": true,
   "license": "UNLICENSED",
@@ -31,9 +31,9 @@
   "scripts": {
     "build": "tsc -b .",
     "build:clean": "yarn build --clean",
-    "lint": "eslint ./ --ext .ts",
+    "lint": "eslint ./src --ext .ts",
     "precommit": "lint-staged",
     "prepush": "yarn build",
-    "start": "nodemon index.ts"
+    "start": "nodemon src/index.ts"
   }
 }

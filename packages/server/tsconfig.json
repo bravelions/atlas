@@ -3,7 +3,6 @@
   "compilerOptions": {
     "rootDirs": ["./", "../shared"],
     "outDir": "../../dist/server",
-    /* Build Options */
     "esModuleInterop": true,
     "lib": ["es2020"],
     "module": "commonjs",
@@ -11,16 +10,13 @@
     "noEmitOnError": true,
     "removeComments": true,
     "target": "es2019",
-    /* Checks */
     "strict": true,
     "skipLibCheck": true,
     "allowUnreachableCode": false,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
-    // todo: enable these later in the project build
     "noUnusedLocals": false,
     "noUnusedParameters": false,
-    /* Logging Options */
     "listEmittedFiles": true,
     "typeRoots": [
       "../../node_modules/@types",

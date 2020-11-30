@@ -1,14 +1,15 @@
 # root
 .github
 .idea
-/dist
-/node_modules
+dist
+node_modules
 
 # client
 packages/app/.next
 packages/app/node_modules
 
 # server
+packages/server/build
 packages/server/node_modules
 
 # shared

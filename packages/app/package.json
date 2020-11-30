@@ -1,5 +1,6 @@
 {
   "name": "@atlas/app",
+  "description": "atlas front end next.js app",
   "version": "0.1.0",
   "private": true,
   "license": "UNLICENSED",

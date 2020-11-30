@@ -1,0 +1,13 @@
+.dockerignore
+.git
+.github
+.gitignore
+.idea
+dist
+node_modules
+README.md
+
+packages/app/.next
+packages/server/build
+
+packages/*/node_modules
