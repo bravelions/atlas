@@ -4,6 +4,8 @@
     "rootDirs": ["./", "../shared"],
     "outDir": "../../dist/server",
     "esModuleInterop": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
     "lib": ["es2020"],
     "module": "commonjs",
     "moduleResolution": "node",
