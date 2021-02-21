@@ -3,16 +3,10 @@ import compress from 'koa-compress';
 import range from 'koa-range';
 import post from './router/v1/test/post';
 import { MikroORM, RequestContext } from '@mikro-orm/core';
-import { User } from './entities/user';
 
 export default class AtlasApp extends Application {
   public async init(): Promise<void> {
-    const orm = await MikroORM.init({
-      entities: [User],
-      dbName: 'atlas-db',
-      type: 'postgresql',
-      forceUtcTimezone: true,
-    });
+    const orm = await MikroORM.init();
 
     this.use(range);
 
