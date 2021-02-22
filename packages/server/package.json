@@ -45,6 +45,7 @@
     "lint": "eslint ./src --ext .ts",
     "precommit": "lint-staged",
     "prepush": "yarn build",
-    "start": "nodemon src/index.ts"
+    "start": "nodemon src/index.ts",
+    "db:seed": "yarn mikro-orm database:import ./seed-data/seed-data.sql"
   }
 }
